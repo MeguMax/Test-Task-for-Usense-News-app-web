@@ -15,6 +15,7 @@ app.use(helmet());
 
 const allowedOrigins = [
     'http://localhost:3000',
+    'https://test-task-for-usense-news-app-web.vercel.app',
     process.env.FRONTEND_URL,
     /\.vercel\.app$/
 ].filter(Boolean);
